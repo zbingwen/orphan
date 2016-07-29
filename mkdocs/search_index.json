@@ -2,23 +2,73 @@
     "docs": [
         {
             "location": "/", 
-            "text": "\ufeff\n\n\nWelcome to BowenZ Doc.\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "\ufeff\n\n\nWelcome to Bowen Doc.\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nIndex\n\n\n\n\nDataBase \n\n\nOracle\n\n\nMySQL\n\n\nMongodb\n\n\n\n\n\n\nOS\n\n\nLinux\n\n\nWindows\n\n\n\n\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-bowenz-doc", 
+            "location": "/#welcome-to-bowen-doc", 
             "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to BowenZ Doc."
+            "title": "Welcome to Bowen Doc."
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#index", 
+            "text": "DataBase   Oracle  MySQL  Mongodb    OS  Linux  Windows", 
+            "title": "Index"
         }, 
         {
             "location": "/#project-layout", 
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
             "title": "Project layout"
+        }, 
+        {
+            "location": "/oracle/ora/", 
+            "text": "\ufeff\n\n\nOracle Document Index\n\n\nFor full documentation visit \nmkdocs.org\n.", 
+            "title": "Oracle"
+        }, 
+        {
+            "location": "/oracle/ora/#oracle-document-index", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Oracle Document Index"
+        }, 
+        {
+            "location": "/mysql/mydb/", 
+            "text": "\ufeff\n\n\nMySQL Document Index\n\n\nFor full documentation visit \nmkdocs.org\n.", 
+            "title": "MySQL"
+        }, 
+        {
+            "location": "/mysql/mydb/#mysql-document-index", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "MySQL Document Index"
+        }, 
+        {
+            "location": "/mongodb/mgdb/", 
+            "text": "\ufeff\n\n\nMongodb Document Index\n\n\nFor full documentation visit \nmkdocs.org\n.", 
+            "title": "Mongodb"
+        }, 
+        {
+            "location": "/mongodb/mgdb/#mongodb-document-index", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Mongodb Document Index"
+        }, 
+        {
+            "location": "/linux/lx/", 
+            "text": "\ufeff\n\n\nLinux Document Index\n\n\nFor full documentation visit \nmkdocs.org\n.", 
+            "title": "Linux"
+        }, 
+        {
+            "location": "/linux/lx/#linux-document-index", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Linux Document Index"
+        }, 
+        {
+            "location": "/windows/wd/", 
+            "text": "\ufeff\n\n\nWindows Document Index\n\n\nFor full documentation visit \nmkdocs.org\n.", 
+            "title": "Windows"
+        }, 
+        {
+            "location": "/windows/wd/#windows-document-index", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Windows Document Index"
         }, 
         {
             "location": "/about/", 
