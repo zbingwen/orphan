@@ -34,13 +34,71 @@
     
         
     <url>
-     <loc>None/linux/lx/</loc>
-     <lastmod>2016-07-30</lastmod>
+     <loc>None</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/windows/wd/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/resume/php/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/ios/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/android/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/web/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/java/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/c/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/node/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/architect/</loc>
+     <lastmod>2016-07-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/resume/etc/</loc>
      <lastmod>2016-07-30</lastmod>
      <changefreq>daily</changefreq>
     </url>

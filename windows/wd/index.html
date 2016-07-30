@@ -7,15 +7,15 @@
         
         <meta name="author" content="Bowen Zhuang">
         
-        <link rel="shortcut icon" href="../../../../squirrel.ico">
+        <link rel="shortcut icon" href="../../img/squirrel.ico">
         
 
 	<title>Windows - BowenZ</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-36723568-3', 'mkdocs.org');
+            ga('create', 'UA-27795084-5', 'mkdocs.org');
             ga('send', 'pageview');
         </script>
         
@@ -43,7 +43,6 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -51,7 +50,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
 
             <!-- Main title -->
             <a class="navbar-brand" href="../..">BowenZ</a>
@@ -59,91 +57,175 @@
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
             
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="../..">Home</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">DataBase <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">DataBase <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
                         
-                            
 <li >
     <a href="../../oracle/ora/">Oracle</a>
 </li>
 
+                    
                         
-                            
 <li >
     <a href="../../mysql/mydb/">MySQL</a>
 </li>
 
+                    
                         
-                            
 <li >
     <a href="../../mongodb/mgdb/">Mongodb</a>
 </li>
 
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">OS <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">OS <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Linux</a>
+    <ul class="dropdown-menu">
+        
+            
 <li >
-    <a href="../../linux/lx/">Linux</a>
+    <a href="../../linux/lx/">Introduction</a>
 </li>
 
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Command</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../linux/command/vi/">vi</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                    
                         
-                            
 <li class="active">
     <a href="./">Windows</a>
 </li>
 
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../../about/">About</a>
-                    </li>
-                
-                
-                </ul>
+                    
+                    </ul>
+                </li>
             
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resume <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../resume/php/">phpModel</a>
+</li>
 
+                    
+                        
+<li >
+    <a href="../../resume/ios/">iosModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/android/">androidModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/web/">webModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/java/">javaModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/c/">cModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/node/">nodeModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/architect/">architectModel</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../resume/etc/">etcModel</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../about/">About</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                
-                    <li >
-                        <a rel="next" href="../../linux/lx/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../../about/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
+                <li >
+                    <a rel="next" href="../../linux/command/vi/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../resume/php/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
                 
             </ul>
         </div>
@@ -151,8 +233,7 @@
 </div>
 
         <div class="container">
-            
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
         <li class="main active"><a href="#windows-document-index">Windows Document Index</a></li>
@@ -160,18 +241,19 @@
     
     </ul>
 </div></div>
-                <div class="col-md-9" role="main">
+            <div class="col-md-9" role="main">
 
 <p>﻿</p>
-<h1 id="windows-document-index">Windows Document Index</h1>
+<h1 id="windows-document-index">Windows Document Index<a class="headerlink" href="#windows-document-index" title="Permanent link">#</a></h1>
 <p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p></div>
-            
         </div>
 
         <footer class="col-md-12">
             <hr>
             
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <center>Copyright &copy; 2016</center>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
 
         <script src="../../js/jquery-1.10.2.min.js"></script>
@@ -205,6 +287,5 @@
                 </div>
             </div>
         </div>
-
     </body>
 </html>
